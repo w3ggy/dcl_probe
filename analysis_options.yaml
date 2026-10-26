@@ -1,0 +1,11 @@
+plugins:
+  dart_code_linter:
+    version: 4.4.2
+    diagnostics:
+      prefer-match-file-name: true
+      avoid-dynamic: true
+
+dart_code_linter:
+  rules:
+    - prefer-match-file-name
+    - avoid-dynamic
